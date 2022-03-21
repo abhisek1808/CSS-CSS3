@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 750px;
+    width: 100%;
+    background-image: url(images/forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box-1{
+    float: right;
+    position: relative;
+    top:450px;
+    
+}
+.box-2{
+    display: inline-block;
+    position: absolute;
+    top:400px ;
+    
+}
+.box-3{
+   position: absolute;
+   top:0px;
+    
+}
+
+.box-2 :hover{
+    transform: translate(800px,160px);
+    transition: all 2s ease-out;
+    
+
+}
+.box-3:hover{
+    transform: translate(1400px); 
+    transition: all 5s ease-out;
+    /* transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function: ease-out; */
+}
+

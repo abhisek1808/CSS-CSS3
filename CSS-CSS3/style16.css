@@ -1,0 +1,12 @@
+p{
+    width: 100px;
+    padding: 20px;
+    display: inline-block;
+    outline-style: dotted;
+    border: 30px solid yellow;
+    margin: 30px;
+    border-radius: 20px;
+    outline-offset: 15px;
+    outline-color: darkblue;
+    outline-width: 6px;
+}

@@ -1,0 +1,14 @@
+/* h2{
+    text-shadow: 2px 2px 2px aquamarine;
+} */
+
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    box-shadow: 8px 8px 10px black;
+}

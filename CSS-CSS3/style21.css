@@ -1,0 +1,12 @@
+#id1{
+    background-color: orange;
+    visibility: visible;
+}
+#id2{
+    background-color: pink;
+    visibility: hidden;
+}
+#id3{
+    background-color: green;
+    visibility: visible;
+}

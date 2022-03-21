@@ -1,0 +1,24 @@
+body{
+    color:green;
+}
+#box1{
+    border: 12px dotted red;
+    padding: 25px;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+#box2{
+    border: 12px dotted red;
+    padding: 25px;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+#box3{
+    border: 12px dotted red;
+    padding: 25px;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}

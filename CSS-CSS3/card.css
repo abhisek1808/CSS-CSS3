@@ -1,0 +1,111 @@
+body{
+    background-image: url(images/m1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:800px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px; 
+}
+div{
+    display: inline-block;
+    margin: 40px ;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+#body1{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(76, 210, 174, 0.5);
+    width: 310px;
+    height: px;
+    border-radius: 20px;
+    margin:40px;
+    margin-right: 111px;
+    font-family: 'Pacifico', cursive;
+
+
+       
+}
+#b1image{
+    height: 100px;
+    width: 100px;
+    margin-top: -55px;
+}
+.button{
+    margin: 0px;
+    margin-top: 50px;
+    color: snow;
+   font-family:'Pacifico', cursive; 
+   /* background-image: linear-gradient(to right, #d8d527, #10d0e9, #d619c6); */
+   background-color:rgb(87, 26, 82);
+}
+
+#body2{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(76, 210, 174, 0.5);
+    width: 310px;
+    height: px;
+    border-radius: 20px;
+    margin:40px;
+    margin-right: 100px;
+    font-family: 'Pacifico', cursive;
+
+    
+}
+#b2image{
+    height: 100px;
+    width: 100px;
+    margin-top: -55px;
+}
+
+#body3{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(76, 210, 174, 0.5);
+    width: 310px;
+    height: px;
+    border-radius: 20px;
+    margin:40px;
+    margin-right:40px;
+    font-family: 'Pacifico', cursive;
+    
+}
+#b3image{
+    height: 100px;
+    width: 100px;
+    margin-top: -55px;
+}
+#body1 p:hover{
+    font-family: 'Sriracha', cursive;
+    text-decoration: underline;
+    color:rgb(3, 12, 88)   
+}
+#body2 p:hover{
+    font-family: 'Sriracha', cursive;
+    text-decoration: underline;
+    color:rgb(3, 12, 88)   
+}
+#body3 p:hover{
+    
+    font-family: 'Sriracha', cursive;
+    text-decoration: underline;
+    color:rgb(3, 12, 88)   
+}
+#body1 h3:hover{
+    font-family: 'Luckiest Guy', cursive;
+    color:rgb(87, 26, 82); 
+}
+#body2 h3:hover{
+    font-family: 'Luckiest Guy', cursive;
+    color:rgb(87, 26, 82); 
+}
+#body3 h3:hover{
+    font-family: 'Luckiest Guy', cursive;
+    color:rgb(87, 26, 82); 
+}
+
+

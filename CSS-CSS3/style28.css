@@ -1,0 +1,17 @@
+.parent-box{
+    background-color: rgb(3, 46, 83);
+    width: 80%;
+    height: 400px;
+}
+.child-box{
+    background-color: aqua;
+    height: 400px;
+    width:30%;
+/* IN 3D must be use perspective() fun */
+    /* transform:perspective(500px) rotateX(45deg); */
+    /* transform:perspective(500px) rotateY(-40deg); */
+    transform:perspective(500px) rotateZ(40deg);
+
+
+
+}

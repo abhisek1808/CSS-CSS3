@@ -1,0 +1,39 @@
+#img{
+    height: 300px;
+    width: 300px;
+}
+.heart{
+    animation-name: heartmove;
+    animation-duration: 5s;
+    position: relative;
+    /* animation-delay: 5s; */
+    animation-iteration-count: 2;
+    /* animation-direction:alternate; */
+}
+@keyframes heartmove {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    20%{
+        left: 500px;
+        top: 0px;
+    }
+    40%{
+        left: 1200px;
+        top: 0px;
+    }
+    60%{
+        left: 1200px;
+        top: 300px;
+    }
+    80%{
+        left: 500px;
+        top: 300px;
+    }
+    100%{
+        left: 0px;
+        top: 300px;
+    }
+
+}

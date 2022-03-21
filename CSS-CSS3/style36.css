@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    width: 90%;
+    margin: auto;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes slider {
+    0%{
+        background-image: url(images/car2.jpg);
+    }
+    25%{
+        background-image: url(images/bg\ 6.jpg);
+    }
+    50%{
+        background-image: url(images/com.jpg);
+    }
+    75%{
+        background-image: url(images/wall\ paper.jpg);
+    }
+    100%{
+        background-image: url(images/car1.jpg);
+    }
+}

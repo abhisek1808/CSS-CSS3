@@ -1,0 +1,39 @@
+/* .bg-col{
+    width:450px;
+    box-shadow: 0px 0px 20px black;
+    padding: 20px;
+    background-color: chartreuse;
+}
+.bg-img{
+    width: 500px;
+    height: 300px;
+    font-size: 30px;
+    background-image: url(images/3.jpg);
+    padding: 50px;
+    
+} */
+.bg-pos{
+    height: 400px;
+    width:700px;
+    box-shadow: 0 0 10px black;
+    background-image: url(images/download.png);
+    background-repeat: no-repeat;
+    /* background-size:cover ; */
+    /* background-size: 50px; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: center;  */
+    /* background-position: top center;  */
+    /* background-position: bottom left;  */
+    /* background-position: top right;  */
+
+}
+
+.bg-att{
+    height: 800px;
+    width: 1250px;
+    background-image: url(images/pexels-craig-adderley-1563356.jpg);
+    /* background-attachment:scroll; */
+    background-attachment:fixed;
+    
+}

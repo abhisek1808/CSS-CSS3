@@ -1,0 +1,27 @@
+body{
+    color: white;
+}
+#box1{
+    border: 12px dotted red;
+    padding: 25px;
+    background-image: url(images/pexels-craig-adderley-1563356.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+#box2{
+    border: 12px dotted red;
+    padding: 25px;
+    background-image: url(images/pexels-craig-adderley-1563356.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+
+}
+#box3{
+    border: 12px dotted red;
+    padding: 25px;
+    background-image: url(images/pexels-craig-adderley-1563356.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+
+
+}

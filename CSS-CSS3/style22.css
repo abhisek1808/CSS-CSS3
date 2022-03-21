@@ -1,0 +1,11 @@
+#div1{
+    background-color: pink;
+    font-size:25px;
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+    /* overflow:hidden; */
+    /* overflow: visible; */
+    overflow: auto;
+
+}

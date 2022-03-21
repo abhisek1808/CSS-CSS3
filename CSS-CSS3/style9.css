@@ -1,0 +1,30 @@
+.gradient{
+    height: 400px;
+    width: 400px;
+    /* background-image: linear-gradient(red,blue); */
+    /* background-image: linear-gradient(to right,red,blue); */
+    /* background-image: linear-gradient(to bottom right,red,blue); */
+    /* background-image: linear-gradient(180deg,red,blue); */
+    /* background-image: linear-gradient(rgba(255,0,0,0.5),blue); */
+    /* background-image: linear-gradient(rgba(255,0,0,0.5), background-color:green);  not working*/
+
+
+    /* background-image: repeating-linear-gradient(yellow 10%,black 20%); */
+    /* background-image: radial-gradient(black,yellow,green); */
+    /* border-radius: 50%; */
+    /* background-image: radial-gradient(black 50%,yellow,green); */
+    /* background-image: radial-gradient(circle,red,yellow,green); */
+    /* background-image:repeating-radial-gradient(black 10%,yellow 14%); */
+
+
+    /* background-image:conic-gradient(red,black,white); */
+    /* border-radius: 50%; */
+    /* background-image:conic-gradient(from 45deg,red,yellow,yellowgreen); */
+    /* border-radius: 50%; */
+
+    background-image:repeating-conic-gradient(red 0deg,red 10deg,yellow 10deg,yellow 20deg);
+    border-radius: 50%;
+
+
+
+}

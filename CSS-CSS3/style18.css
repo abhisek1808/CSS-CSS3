@@ -1,0 +1,25 @@
+/* p{
+    font-size: 20px;
+}
+#para1{
+    height: 200px;
+    width: 400px;
+    border: 3px solid green;
+    float: left;
+}
+#para2{
+    height: 200px;
+    width: 500px;
+    border: 3px solid red;
+    float: right;
+} */
+
+#img1,#id1,#para1{
+    float: left;
+}
+/* #para1,#id1{
+    width: 500px;
+} */
+#para1,#id1{
+    width: 700px;
+}

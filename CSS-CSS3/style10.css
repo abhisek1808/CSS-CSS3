@@ -1,0 +1,11 @@
+.div1{
+    background-color: yellowgreen;
+    height: 300px;
+    width: 300px;
+    /* border-style: solid;
+    border-color: green;
+    border-width: 10px; */
+
+    /* border: border_width border_style border_color; */
+    border:10px solid green;
+}

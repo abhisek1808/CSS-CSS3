@@ -1,0 +1,20 @@
+#id1{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#id2{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#id3{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    /* float: left; */
+    /* cancel the float effect */
+    clear: left;
+}

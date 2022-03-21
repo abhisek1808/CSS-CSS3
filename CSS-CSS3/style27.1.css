@@ -1,0 +1,14 @@
+body{
+    height: 800px;
+    background-image: url(images/road2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nani{
+    position: relative;
+    top: 590px;
+}
+.nani:hover{
+    transform:translate(100%) ;
+    transition: all 5s ease-in-out;
+}

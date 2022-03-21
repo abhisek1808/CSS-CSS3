@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: limegreen;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 100px;   
+}
+p{
+    display: none;
+}
+/* mobile screen  */
+@media (max-width:500px) {
+    
+    body{
+        background-color: red;
+    }
+    .mobile p{
+        display: block;
+    }
+
+}
+/* tablet screen  */
+@media (min-width:501px) and (max-width:768px) {
+    
+    body{
+        background-color:yellowgreen;
+    }
+    .tablet p{
+        display: block;
+    }
+
+}
+
+/* laptop screen  */
+@media (min-width:769px) and (max-width:1200px) {
+    
+    body{
+        background-color:coral;
+    }
+    .laptop p{
+        display: block;
+    }
+
+}
+
+/* wide screen  */
+@media (min-width:1200px){
+    
+    body{
+        background-color:teal;
+    }
+    .wide p{
+        display: block;
+    }
+
+}

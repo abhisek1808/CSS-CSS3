@@ -1,0 +1,39 @@
+/* p{
+    font-size: 1cm;
+       1cm=37px
+       1inch=96px
+       1pt=72pt
+       72pt=1 inch
+       12pt=1pc 
+} */ 
+
+/* parent size based
+
+.child-box{
+    font-size: 1.5em;
+}
+
+html{
+font-size: 25px;
+}
+/* html based */ 
+
+/* .child-box{
+    font-size:2rem;
+} */
+
+.box{
+    background-color: aqua;
+    border:5px solid red;
+
+    /* height propose */
+    /* height: 50vh;  */
+
+
+    /* width propose */
+    /* width: 50vw; */
+
+}
+p{
+    font-size: 5em;
+}

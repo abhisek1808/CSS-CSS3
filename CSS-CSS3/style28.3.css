@@ -1,0 +1,59 @@
+.box-1{
+    border: 5px solid black;
+    height: 300px;
+    width: 600px;
+    display: inline-block;
+}
+.child-1{
+    background-color: blue;
+    height: 300px;
+    width: 290px;
+    display: inline-block;
+    
+}
+.child-2{
+    background-color: blue;
+    height: 300px;
+    width: 290px;
+    float: right;
+      
+}
+/* .child-1:hover{
+    transform: perspective(500px)rotateX(40deg);
+    transition: all 2s;
+   
+}
+.child-2:hover{
+    transform: perspective(500px)rotateX(40deg);
+    transition: all 2s;
+   
+} */
+.nani:hover{
+    transform: perspective(500px)rotateX(40deg);
+    transition: all 2s ease-out;
+}
+
+.box-2{
+    border: 5px solid black;
+    height: 300px;
+    width: 600px;
+    float: right;
+}
+.child-1{
+    background-color: blue;
+    height: 300px;
+    width: 290px;
+    display: inline-block;
+    
+}
+.child-2{
+    background-color: blue;
+    height: 300px;
+    width: 290px;
+    float: right;
+      
+}
+.nani-1:hover{
+    transform: perspective(500px)rotateX(-40deg);
+    transition: all 1s ease-out;
+}
